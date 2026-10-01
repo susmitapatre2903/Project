@@ -1,0 +1,116 @@
+.HomeTeacher {
+	background-color: rgb(255, 255, 255);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.Sidebar {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	/* fallback for old browsers */
+	background: #6a11cb;
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.SidebarList {
+	height: 100vh;
+	padding: 0;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.SidebarList .row {
+	width: 100%;
+	height: 50px;
+	list-style-type: none;
+	margin: 0%;
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 255, 255);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.SidebarList .row:hover {
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+}
+
+.effect:hover {
+	color: #6a11cb;
+}
+
+.image {
+	margin-top: 25px;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.Bar {
+	float: right;
+	height: 50px;
+	width: 100%;
+}
+
+.height {
+	height: 150px;
+}
+
+.Bar .adjust {
+	margin-right: 20px;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0;
+}
+
+.Bar .m {
+	padding: 10px;
+}
+
+.SubjectBar {
+	height: 110px;
+	width: 100%;
+}
+
+
+.SubjectBar-row {
+	margin-top: 15px;
+	margin-left: 55px;
+	width: 250px;
+	height: 70%;
+	background-color: rgb(87, 182, 245);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.SubjectBar-row:hover {
+	cursor: pointer;
+	border: solid 3px #6a11cb;
+	background-color: rgb(255, 255, 255);
+}
+
+.changeable {
+	padding: 0%;
+	width: 100%;
+	height: 560px;
+	border: solid 1px black;
+}

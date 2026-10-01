@@ -1,0 +1,76 @@
+.gradient-custom {
+	/* fallback for old browsers */
+	background: #6a11cb;
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.border {
+	border-radius: 1rem;
+}
+
+.backofList {
+	background-color: rgb(92, 174, 247);
+}
+
+.border1 {
+	border: solid;
+}
+
+.colour {
+	background: -webkit-linear-gradient(rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+}
+
+.sizeDiv {
+	width: 350px;
+	margin: auto;
+	padding: 10px;
+	text-align: left;
+	align-items: flex-end;
+}
+
+.margind {
+	margin-top: 30px;
+}
+
+.borderRadius {
+	border: 2px;
+	border-radius: 6px;
+}
+
+.imageSize {
+	margin: 90px;
+}
+
+tr[disabled] {
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+.topMargin {
+	margin-top: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+.button1 {
+	padding: 9px;
+}
